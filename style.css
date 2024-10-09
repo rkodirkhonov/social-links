@@ -1,0 +1,107 @@
+    /* Base styles */
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+  
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        background-color: hsl(0, 0%, 8%);
+        color: hsl(0, 0%, 100%);
+      }
+  
+      /* Main container is a quadrilateral */
+      .main {
+        width: 100%;
+        max-width: 350px;
+        height: 600px;
+        background-color: hsl(0, 0%, 12%);
+        border: 1px solid hsl(0, 0%, 20%);
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+      }
+  
+      img {
+        border-radius: 50%;
+        width: 100px;
+        height: 100px;
+      }
+  
+      h1 {
+        font-size: 22px;
+        margin: 10px 0;
+        font-weight: 700;
+      }
+  
+      h4 {
+        color: hsl(75, 94%, 57%);
+        font-size: 16px;
+        font-weight: 600;
+      }
+  
+      p {
+        font-size: 14px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+      }
+  
+      /* Social media buttons */
+      .big-button {
+        display: inline-block;
+        padding: 15px 30px;
+        font-size: 16px;
+        background-color: hsl(0, 0%, 20%);
+        color: hsl(0, 0%, 100%);
+        text-align: center;
+        text-decoration: none;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        margin: 5px;
+        width: 90%;
+        transition: background-color 0.3s ease;
+      }
+  
+      .big-button:hover {
+        background-color: hsl(75, 94%, 57%);
+      }
+  
+      /* Responsive design */
+      @media (max-width: 375px) {
+        .main {
+          max-width: 100%;
+          padding: 15px;
+          height: auto;
+        }
+  
+        img {
+          width: 80px;
+          height: 80px;
+        }
+  
+        h1 {
+          font-size: 20px;
+        }
+  
+        h4 {
+          font-size: 14px;
+        }
+  
+        .big-button {
+          font-size: 14px;
+          padding: 10px 20px;
+        }
+      }
