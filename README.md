@@ -37,15 +37,6 @@ Users should be able to:
 
 During this project, I strengthened my understanding of Flexbox for layout purposes. I also improved at making responsive designs that adjust smoothly from mobile to desktop sizes.
 
-Example of my favorite HTML snippet:
-
-```html
-<a href="#" class="big-button">GitHub</a>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
 ```
 ```js
 const proudOfThisFunc = () => {
